@@ -13,6 +13,9 @@
 		BC87FC1B2BFF288400407912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC1A2BFF288400407912 /* Base */; };
 		BC87FC1D2BFF288500407912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC1C2BFF288500407912 /* Assets.xcassets */; };
 		BC87FC202BFF288500407912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC1F2BFF288500407912 /* Base */; };
+		BC87FC282BFF299B00407912 /* CaseOneBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */; };
+		BC87FC2A2BFF29C300407912 /* CaseTwoBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */; };
+		BC87FC2C2BFF29E900407912 /* CaseThreeBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BC87FC1C2BFF288500407912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC87FC1F2BFF288500407912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC87FC212BFF288500407912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseOneBoard.storyboard; sourceTree = "<group>"; };
+		BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseTwoBoard.storyboard; sourceTree = "<group>"; };
+		BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseThreeBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				BC87FC1C2BFF288500407912 /* Assets.xcassets */,
 				BC87FC1E2BFF288500407912 /* LaunchScreen.storyboard */,
 				BC87FC212BFF288500407912 /* Info.plist */,
+				BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */,
+				BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */,
+				BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */,
 			);
 			path = tableViewPractice;
 			sourceTree = "<group>";
@@ -125,6 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC87FC2A2BFF29C300407912 /* CaseTwoBoard.storyboard in Resources */,
+				BC87FC282BFF299B00407912 /* CaseOneBoard.storyboard in Resources */,
+				BC87FC2C2BFF29E900407912 /* CaseThreeBoard.storyboard in Resources */,
 				BC87FC1D2BFF288500407912 /* Assets.xcassets in Resources */,
 				BC87FC202BFF288500407912 /* Base in Resources */,
 				BC87FC1B2BFF288400407912 /* Base in Resources */,
@@ -300,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +320,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tunastorm.tableViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,6 +345,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +353,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tunastorm.tableViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
