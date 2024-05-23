@@ -16,6 +16,7 @@
 		BC87FC282BFF299B00407912 /* CaseOneBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */; };
 		BC87FC2A2BFF29C300407912 /* CaseTwoBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */; };
 		BC87FC2C2BFF29E900407912 /* CaseThreeBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */; };
+		BCC522D82BFF351F00DF080D /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC522D72BFF351F00DF080D /* ConfigTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseOneBoard.storyboard; sourceTree = "<group>"; };
 		BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseTwoBoard.storyboard; sourceTree = "<group>"; };
 		BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaseThreeBoard.storyboard; sourceTree = "<group>"; };
+		BCC522D72BFF351F00DF080D /* ConfigTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BC87FC272BFF299B00407912 /* CaseOneBoard.storyboard */,
 				BC87FC292BFF29C300407912 /* CaseTwoBoard.storyboard */,
 				BC87FC2B2BFF29E900407912 /* CaseThreeBoard.storyboard */,
+				BCC522D72BFF351F00DF080D /* ConfigTableViewController.swift */,
 			);
 			path = tableViewPractice;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				BC87FC182BFF288400407912 /* ViewController.swift in Sources */,
 				BC87FC142BFF288400407912 /* AppDelegate.swift in Sources */,
 				BC87FC162BFF288400407912 /* SceneDelegate.swift in Sources */,
+				BCC522D82BFF351F00DF080D /* ConfigTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
