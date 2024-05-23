@@ -30,5 +30,5 @@ tunastorm
 
 > UI 이미지
 
-<img src=""  width="800" height="550"/>
+<img src="https://github.com/tunastorm/tableViewPractice/blob/tunastorm/TableView%20Practice%20UI.png"  width="800" height="550"/>
    
